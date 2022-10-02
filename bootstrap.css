@@ -4353,7 +4353,7 @@ textarea.form-control-lg {
   }
   .card-group > .card + .card {
     margin-left: 0;
-    border-left: 0;
+    border-left: 2;
   }
   .card-group > .card:not(:last-child) {
     border-top-right-radius: 0;

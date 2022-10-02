@@ -1,6 +1,7 @@
-/* html{
-    background-color: #faaa94;
-  } */
+html{
+    margin: 0;
+    padding: 0;
+}
 
   .logo-title span .title{
     display: inline;
@@ -47,24 +48,29 @@ body {
 } */
 
 body{
-    display: flex;
+    display: felx;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
+    padding: 2rem;
+    background-color: #f4f4f4;
 }
 
 .main-content{
-    background-color: white;
+    min-height: calc(100vh - 25rem);
+    background-color: #f4f4f4;
     padding: 2rem;
-    min-height: 100vh;
+    /* margin-bottom: 10%; */
+
 }
 
 .footer-blog{
-    margin-top: auto;
+    margin-top: calc(100vh - 55rem);
+
 }
 .footer-blog{
     width: 100%;
     background-color: rgb(37, 37, 41);
-    height: 340px;
+    height: 25rem;
 }
 
 .footer-blog .footer-container1{
@@ -145,8 +151,61 @@ body{
 }
 
 .footer-blog .footer-container2{
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+
+
+
+/* contenido */
+
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 2fr)); para hacer el responsive que buscamos arriba. media minima y max, si se achica mas de tanto se desplaza
+    
+    gap: 0.6rem;
+}
+
+.item {
+    background: rgba(0, 0, 0, 0.3);
+    border:  1px solid black;
+    border-radius: 15%;
+    padding: 0.8rem;
+    display: grid;
+    grid-template-columns: 14rem 1fr;
+
+
+} */
+
+.carta1{
+    margin: 1rem 1rem 1rem 0;
+    padding: 1rem;
+    border-width: 3px;
+}
+.carta2{
+    margin: 1rem 0 1rem 1rem;
+    padding: 1rem;
+    border-width: 3px;
+    border-left: 2;
+}
+
+.card-link{
+    text-decoration: none;
+
+}
+.card{
+    margin-bottom: 2rem;
+}
+
+.card-link .card-body .card-title{
+    color: #ff3820;
+}
+
+.card-link .card-body .card-text{
+    color: #000;
+}
+
+
+
 
 
 
